@@ -23,7 +23,7 @@ using namespace std;
 
 class $CLASSNAME$ {
 public:
-    $RC$ $METHODNAME$( $METHODPARMS$ ) {
+    $RC$ $METHODNAME$($METHODPARMS$) {
 
     }
 };
