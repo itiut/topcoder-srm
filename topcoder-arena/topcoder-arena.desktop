@@ -3,5 +3,5 @@ Type=Application
 Name=TopCoder Arena
 Comment=Launch TopCoder Arena
 Icon=topcoder-arena
-Exec=sh -c "javaws $HOME/local/share/topcoder/ContestAppletProd.jnlp"
+Exec=sh -c "javaws $HOME/local/share/topcoder-arena/ContestAppletProd.jnlp"
 Categories=Utility;Development;
