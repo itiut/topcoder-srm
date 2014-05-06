@@ -33,7 +33,7 @@ public:
         int t = 1;
         int idx = 0;
         while (employees.size() > 1) {
-            int next = (idx + (int) pow(t, 3) - 1) % employees.size();
+            int next = (idx + (long long) pow(t, 3) - 1) % employees.size();
             employees.erase(begin(employees) + next);
             idx = next;
             t++;
