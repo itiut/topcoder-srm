@@ -14,9 +14,9 @@ if [ ! -d $icons_dir ]; then
 fi
 cp -iv topcoder-arena.xpm $icons_dir
 
-if [ ! -d $HOME/local/share ]; then
-    mkdir -pv $HOME/local/share
+if [ ! -d $HOME/local/opt ]; then
+    mkdir -pv $HOME/local/opt
 fi
-ln -isv $PWD $HOME/local/share
+ln -isv $PWD $HOME/local/opt
 
 cp -iv contestapplet.conf $HOME
